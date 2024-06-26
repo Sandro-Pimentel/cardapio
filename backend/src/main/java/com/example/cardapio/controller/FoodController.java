@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("com/example/cardapio/food")
+@RequestMapping("food")
 public class FoodController {
     @Autowired
     private FoodRepository repository;
