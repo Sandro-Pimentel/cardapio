@@ -7,7 +7,7 @@ Esse repositório é destinado ao desenvolvimento de uma aplicação fullstack, 
 O projeto foi desenvolvido com base em dois vídeos "Criando Aplicação Fullstack do Zero" do youtube do canal "Fernanda Kipper | Dev", onde é apresentado o passo à passo para a criação do projeto.
 
 ## Desafio
-O vídeo tem como produto final um site que pode tanto mostrar, como adicionar produtos para um cardápio, porém para desenvolver minhas habilidades nesse projeto será implementado as funções de apagar e alterar as comidas do cardápio
+O vídeo tem como produto final um site que pode tanto mostrar, como adicionar comidas para um cardápio, porém para desenvolver minhas habilidades nesse projeto será implementado as funções de apagar e alterar as comidas do cardápio
 
 ### Features
 - [X] Adição de comidas ao cardápio
