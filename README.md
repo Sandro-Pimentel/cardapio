@@ -1,5 +1,7 @@
 # Cardápio
 
+> _💻 Status do projeto: Em desenvolvimento._
+
 ## Resumo
 Esse repositório é destinado ao desenvolvimento de uma aplicação fullstack, para o aprendizado da criação de uma api rest, que utiliza de java spring, da criação de uma aplicação react que se comunica com esse backend e a utilização do postgre como SGBD. O projeto é um site onde é possível adicionar, visualizar, alterar e apagar produtos de um cardápio.
 
