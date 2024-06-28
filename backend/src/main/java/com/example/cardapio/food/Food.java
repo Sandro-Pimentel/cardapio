@@ -1,10 +1,7 @@
 package com.example.cardapio.food;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 @Table(name = "foods")
 @Entity(name = "foods")
@@ -15,8 +12,11 @@ import lombok.NoArgsConstructor;
 public class Food {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    @Setter
     private String title;
+    @Setter
     private String image;
+    @Setter
     private Integer price;
 
     public Food(FoodRequestDTO data){
@@ -24,4 +24,5 @@ public class Food {
         this.image = data.image();
         this.price = data.price();
     }
+
 }
