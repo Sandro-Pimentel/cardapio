@@ -26,3 +26,13 @@
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 7px 0px;
     transform: scale(1.1);
 }
+
+.container .button {
+    background-color: #d80202;
+    color: white;
+    font-weight: bold;
+    position: initial;
+    bottom: 16px;
+    right: 24px;
+    transition: all 0.1s linear 0.1s;
+}

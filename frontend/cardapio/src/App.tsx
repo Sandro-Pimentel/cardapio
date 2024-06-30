@@ -18,7 +18,8 @@ function App() {
         <h1>Cardápio</h1>
         <div className="card-grid">
           {data?.map((foodData) => 
-          <Card 
+          <Card
+            id={foodData.id === undefined ? 0 : foodData.id}
             price={foodData.price} 
             title={foodData.title} 
             image={foodData.image}
